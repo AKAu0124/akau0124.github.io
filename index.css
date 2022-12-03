@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Rochester&family=Forum&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+body{
+    background-color: #040720;
+    color: whitesmoke;
+    font-family: 'Forum', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.clearfix{
+    clear: both;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Header * Nav Bar */
+.container{
+    padding: 0 1.25em;
+    margin-top: 0px;
+}
+
+header .title{
+    font-family: 'Handlee';
+    font-size: 20px;
+}
+
+header .logo{
+    width: 80px;
+    height: 80px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar .navbar-nav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .navbar-nav li{
+    list-style: none;
+}
+
+.navbar .navbar-nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    display: block;
+}
+
+.navbar .navbar-nav a:hover{
+    color: goldenrod;
+}
+
+
+/* About Me */
+
+.About{
+    text-align: center;
+    text-justify: justify;
+}
+
+div .self{
+    width: 300px;
+    height: auto;
+    border-radius: 30px;
+}
+
+/* Passion */
+.passion{
+    padding: 57.775px 0 57.775px 0;
+    text-align: center;
+
+}
+
+.passion h3{
+    line-height: 2em;
+}
+
+section .coding_icon{
+    width: 300px;
+    height: 300px;
+}
+
+
+/* Experience */
+.experience{
+    padding: 188.975px 0 188.975px 0;
+    width: 100%;
+}
+
+section .icon{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 1.5rem;
+}
+
+section .icon:hover{
+    width: 120px;
+    height: 120px;
+    transition: .45s;
+}
+
+
+/* Portfolio */
+.project{
+    padding: 147.0415px 0 147.0415px 0;
+}
+
+div .Portfolio{
+    width: 500px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    border: 10px solid rgba(255, 255, 255, 0.2);
+}
+
+div .Portfolio:hover{
+    width: 550px;
+    height: auto;
+    transition: .45s;
+    box-shadow: 10px 8.5px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+
+/* Contact */
+.contact{
+    padding: 128.975px 0 128.975px 0;
+}
+
+form{
+    color: black;
+    padding-bottom: 0.5em;
+    justify-content: space-between;
+}
+
+/* footer */
+footer{
+    width: 1280px;
+    margin: auto;
+}
+
+.github{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 1.5rem;
+}
+
+.github:hover{
+    width: 150px;
+    height: 150px;
+    transition: 1s;
+}
+
+.linkedin{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 1.5rem;
+}
+
+.linkedin:hover{
+    width: 150px;
+    height: 150px;
+    transition: 1s;
+}
+
+/* Copy */
+.copy{
+    text-align: center;
+}
