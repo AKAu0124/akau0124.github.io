@@ -125,21 +125,33 @@ section .icon:hover{
 /* Portfolio */
 .project{
     padding: 147.0415px 0 147.0415px 0;
+    display: inline;
+}
+
+div #personal a img{
+    width: 330px;
+    height: 330px;
+}
+
+div #personal a img:hover{
+    width: auto;
+    height: 350px;
 }
 
 div .Portfolio{
     width: 500px;
     height: auto;
-    display: block;
+    display: inline-block;
     border-radius: 8px;
     border: 10px solid rgba(255, 255, 255, 0.2);
 }
 
 div .Portfolio:hover{
-    width: 550px;
+    width: 530px;
     height: auto;
     transition: .45s;
     box-shadow: 10px 8.5px 0 0 rgba(0, 0, 0, 0.15);
+    
 }
 
 
