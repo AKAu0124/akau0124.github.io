@@ -125,33 +125,32 @@ section .icon:hover{
 /* Portfolio */
 .project{
     padding: 147.0415px 0 147.0415px 0;
-
+    display: inline-block;
 }
 
-div #personal a img{
-    width: 330px;
-    height: 330px;
-}
-
-div #personal a img:hover{
-    width: auto;
-    height: 350px;
-}
 
 div .Portfolio{
+    width: 300px;
+    height:auto;
+    border-radius: 8px;
+    border: 10px solid rgba(255, 255, 255, 0.2);
+}
+
+div .fitness_app{
     width: 500px;
-    height: auto;
-    display: inline-block;
+    height:auto;
     border-radius: 8px;
     border: 10px solid rgba(255, 255, 255, 0.2);
 }
 
 div .Portfolio:hover{
-    width: 530px;
-    height: auto;
-    transition: .45s;
-    box-shadow: 10px 8.5px 0 0 rgba(0, 0, 0, 0.15);
-    
+    width: 350px;
+    height:auto;
+}
+
+div .fitness_app:hover{
+    width: 550px;
+    height:auto;
 }
 
 
