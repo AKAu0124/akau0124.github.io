@@ -105,20 +105,30 @@ section .coding_icon{
 
 /* Experience */
 .experience{
-    padding: 188.975px 0 188.975px 0;
-    width: 100%;
+   padding: 188.975px 0 188.975px 0;
+
 }
+
+
 
 section .icon{
     width: 100px;
     height: 100px;
     padding-bottom: 1.5rem;
+   
+}
+
+@media (max-width: 1000px){
+    section .icon{
+        column-count: 12;
+    }
 }
 
 section .icon:hover{
     width: 120px;
     height: 120px;
     transition: .45s;
+    
 }
 
 
@@ -126,6 +136,7 @@ section .icon:hover{
 .project{
     padding: 147.0415px 0 147.0415px 0;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 
